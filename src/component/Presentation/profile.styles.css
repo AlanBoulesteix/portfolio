@@ -1,0 +1,13 @@
+.presentationDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+.typewriterDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.typewriterDiv a {
+  padding-right: 0.4rem;
+}
