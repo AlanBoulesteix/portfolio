@@ -1,0 +1,21 @@
+.homeDiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar, .content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  scrollbar-width: none;
+}
+
+.content {
+  gap: 20px;
+}
+
+.navbar::-webkit-scrollbar, .content::-webkit-scrollbar {
+  display: none;
+}
