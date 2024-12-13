@@ -16,6 +16,13 @@
   gap: 20px;
 }
 
+.navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar::-webkit-scrollbar, .content::-webkit-scrollbar {
   display: none;
 }

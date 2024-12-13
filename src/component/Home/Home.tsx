@@ -1,7 +1,7 @@
 import About from '../About/About';
 import ExperiencesPage from '../ExperiencesPage/ExperiencesPage';
 import Navbar from '../Navbar/Navbar';
-import './Home.style.css';
+import './Home.styles.css';
 
 export default function Home() {
   return (
