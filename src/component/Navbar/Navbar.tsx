@@ -1,21 +1,23 @@
-import { Link } from 'react-router-dom';
+import './Navbar.styles.css';
 import { Profile } from '../Presentation/Profile';
 
 function Navbar() {
   return (
     <>
-    <nav>
-      <Profile />
-      <div className='sectionDiv'>
-      <Link to="/about">About</Link>
-      </div>
-      <div className='sectionDiv'>
-      <Link to="/experiences">Experiences</Link>
-      </div>
-      <div className='sectionDiv'>
-      <Link to="/project">School Project</Link>
-      </div>
-    </nav>
+        <Profile />
+        <nav>
+          <ul>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experiences">Experiences</a>
+            </li>
+            <li>
+              <a href="#schoolProject">School Project</a>
+            </li>
+          </ul>
+        </nav>
     </>
   );
 }
