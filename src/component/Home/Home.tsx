@@ -1,13 +1,19 @@
 import About from '../About/About';
+import ExperiencesPage from '../ExperiencesPage/ExperiencesPage';
 import Navbar from '../Navbar/Navbar';
-import './home.style.css';
+import './Home.style.css';
 
 export default function Home() {
   return (
     <>
       <div className="homeDiv">
-        <Navbar />
-        <About />
+        <div className="navbar">
+          <Navbar />
+        </div>
+        <div className="content">
+          <About />
+          <ExperiencesPage />
+        </div>
       </div>
     </>
   );
