@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <div id="about">
+      <div id="about" className="section">
         <a>
           After 3 years in retails and 2 years working for banking company, I
           decided to go back to my first intuiton: Coding. For doing so, I

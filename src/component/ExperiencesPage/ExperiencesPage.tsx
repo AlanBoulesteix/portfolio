@@ -5,7 +5,7 @@ export default function ExperiencesPage() {
   const experiences = EXPERICENCES;
 
   return (
-    <div id="experiences">
+    <div id="experiences" className='section'>
       {experiences.map((experience, index) => (
         <div key={index}>
           <Experience
