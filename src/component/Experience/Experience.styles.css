@@ -1,0 +1,69 @@
+.experienceCard {
+  border-radius: 1.5rem;
+  max-width: 35rem;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.experienceCard:hover{
+  background-color: rgba(172, 172, 172, 0.1);
+  opacity: 0.8;
+}
+
+.info_div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 0.75em;
+  font-weight: 300;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+button:hover {
+  border-color: #646cff;
+}
+
+.button_langage_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+
+.period_div a {
+  font-size: 0.75em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.683);
+  text-decoration: none;
+  font-style: italic;
+}
+
+.description_job_div {
+  width: auto;
+}
+
+.description_job_div a {
+  font-size: 0.75em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.683);
+  text-decoration: none;
+}
