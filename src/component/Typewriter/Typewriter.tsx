@@ -1,4 +1,5 @@
 import { useTypewriter } from '../../hook/useTypewriter';
+import './Typewriter.styles.css';
 
 type TypewriterProps = {
   text: string;

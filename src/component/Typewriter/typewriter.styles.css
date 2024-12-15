@@ -1,4 +1,10 @@
-.typeWriter.paragraph {
+.typewriter {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.typewriter p.paragraph {
   font-size: 4rem;
   font-weight: 400;
 }
