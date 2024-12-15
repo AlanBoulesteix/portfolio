@@ -1,6 +1,7 @@
 import './Navbar.styles.css';
 import { Profile } from '../Presentation/Profile';
 import React from 'react';
+import { NAV_LINKS } from '../../constant/navlinks';
 
 function Navbar() {
   const [isActive, setIsActive] = React.useState({
@@ -33,33 +34,19 @@ function Navbar() {
       <Profile />
       <nav>
         <ul onClick={handleScroll}>
-          <li>
-            <a
-              href="#about"
-              className={isActive.about ? 'active' : ''}
-              onClick={() => handleActive('about')}
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="#experiences"
-              className={isActive.experiences ? 'active' : ''}
-              onClick={() => handleActive('experiences')}
-            >
-              Experiences
-            </a>
-          </li>
-          <li>
-            <a
-              href="#schoolProject"
-              className={isActive.schoolProject ? 'active' : ''}
-              onClick={() => handleActive('schoolProject')}
-            >
-              School Project
-            </a>
-          </li>
+          {NAV_LINKS.map((link) => (
+            <li key={link.id}>
+              <a
+                href={`#${link.id}`}
+                className={
+                  isActive[link.id as keyof typeof isActive] ? 'active' : ''
+                }
+                onClick={() => handleActive(link.id)}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </>
