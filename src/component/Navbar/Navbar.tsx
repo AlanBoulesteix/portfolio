@@ -1,5 +1,4 @@
 import './Navbar.styles.css';
-import { Profile } from '../Presentation/Profile';
 import React from 'react';
 import { NAV_LINKS } from '../../constant/navlinks';
 
@@ -31,7 +30,6 @@ function Navbar() {
 
   return (
     <>
-      <Profile />
       <nav>
         <ul onClick={handleScroll}>
           {NAV_LINKS.map((link) => (

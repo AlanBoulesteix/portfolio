@@ -9,13 +9,14 @@ export function Profile() {
   return (
     <div className="presentationDiv">
       <h1>Hi, I'm Alan</h1>
-      <div className='typewriterDiv'>
-      <Typewriter
-        text={ROLES[index]}
-        setSelectedWordIndex={setIndex}
-        maxWordsLen={ROLES.length}
-      />
+      <div className="typewriterDiv">
+        <Typewriter
+          text={ROLES[index]}
+          setSelectedWordIndex={setIndex}
+          maxWordsLen={ROLES.length}
+        />
       </div>
+      <p>I can help you with your very own project</p>
     </div>
   );
 }

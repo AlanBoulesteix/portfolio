@@ -14,7 +14,7 @@ const Typewriter: React.FC<TypewriterProps> = ({
   const displayText = useTypewriter(text, setSelectedWordIndex, maxWordsLen);
 
   return <div className="typewriter">
-    <a>{displayText}</a>
+    <h2 className='paragraph'>{displayText}</h2>
     </div>;
 };
 
