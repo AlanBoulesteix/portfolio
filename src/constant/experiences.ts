@@ -1,7 +1,7 @@
 export const EXPERICENCES = [
   {
     title: 'Full Stack Developer (Intership) - LegalPlacePro',
-    period: 'Juin-December 2024',
+    period: 'June-December 2024',
     description: "Build, style and ship all kind of feature for a banking/accounting application. \
     Provide a proof of concept for one of our partner's API. \
     Participate to feature conception and code conception. \
