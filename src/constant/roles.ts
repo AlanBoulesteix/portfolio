@@ -1,7 +1,7 @@
 export const ROLES = [
   'Full Stack Developer', 
   'Bug Hunter', 
-  'Coffe Drinker',
+  'Coffee Drinker',
   '42 Lover',
   'Software Engineer',
 ]
