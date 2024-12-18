@@ -1,17 +1,16 @@
 import { useState } from 'react';
-import useIntersectionObserver from '../../hook/useIntersectionObserver';
 import About from '../About/About';
 import ExperiencesPage from '../ExperiencesPage/ExperiencesPage';
 import Navbar from '../Navbar/Navbar';
 import { Profile } from '../Presentation/Profile';
-import SchoolProject from '../SchoolProject/SchoolProject';
 import './Home.styles.css';
+import useIntersectionObserver from '../../hook/useIntersectionObserver';
+import SchoolProject from '../SchoolProject/SchoolProject';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('about');
 
   useIntersectionObserver(setActiveSection);
-
   return (
     <>
       <div className="homeDiv">
