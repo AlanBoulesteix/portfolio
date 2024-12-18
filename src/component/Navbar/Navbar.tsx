@@ -1,5 +1,5 @@
 import './Navbar.styles.css';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { NAV_LINKS } from '../../constant/navlinks';
 
 type NavbarProps = {
