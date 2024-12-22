@@ -5,3 +5,5 @@ export const ROLES = [
   '42 Lover',
   'Software Engineer',
 ]
+
+export const SMALL_HOOK = "I can support you with your individual projects"

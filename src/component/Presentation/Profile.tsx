@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './profile.styles.css';
 import Typewriter from '../Typewriter/Typewriter';
-import { ROLES } from '../../constant/roles';
+import { ROLES, SMALL_HOOK } from '../../constant/roles';
 
 export function Profile() {
   const [index, setIndex] = useState(0);
@@ -14,7 +14,7 @@ export function Profile() {
         setSelectedWordIndex={setIndex}
         maxWordsLen={ROLES.length}
       />
-      <p>I can help you with your very own project</p>
+      <p>{SMALL_HOOK}</p>
     </div>
   );
 }
