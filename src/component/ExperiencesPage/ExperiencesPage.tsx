@@ -5,16 +5,15 @@ export default function ExperiencesPage() {
   const experiences = EXPERICENCES;
 
   return (
-    <div id="experiences" className='section'>
+    <div id="experiences" className="section">
       {experiences.map((experience, index) => (
-        <div key={index}>
-          <Experience
-            title={experience.title}
-            period={experience.period}
-            description={experience.description}
-            langages={experience.langages}
-          />
-        </div>
+        <Experience
+          key={index}
+          title={experience.title}
+          period={experience.period}
+          description={experience.description}
+          langages={experience.langages}
+        />
       ))}
     </div>
   );
