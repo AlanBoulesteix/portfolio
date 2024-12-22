@@ -1,4 +1,4 @@
-import ArrowIcon from '../ArrowIcon/ArrowIcon';
+import ArrowIcon from '../Icons/ArrowIcon/ArrowIcon';
 import './SchoolProjectCard.style.css';
 
 type SchoolProjectCardProps = {

@@ -7,6 +7,7 @@ import './Home.styles.css';
 import useIntersectionObserver from '../../hook/useIntersectionObserver';
 import SchoolProject from '../SchoolProject/SchoolProject';
 import LightTrail from '../LightTrail/LightTrail';
+import Contact from '../Contact/Contact';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('about');
@@ -20,6 +21,7 @@ export default function Home() {
         <div className="navbar">
           <Profile />
           <Navbar activeSection={activeSection} />
+          <Contact />
         </div>
         <div className="content">
           <About />
