@@ -11,7 +11,7 @@ const useIntersectionObserver = (setActiveSection: (id: string) => void) => {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.3 }
     );
 
     sections.forEach((section) => {
