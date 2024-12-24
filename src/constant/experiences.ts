@@ -5,7 +5,7 @@ export const EXPERICENCES = [
     description: "Build, style and ship all kind of feature for a banking/accounting application. \
     Provide a proof of concept for one of our partner's API. \
     Participate to feature conception and code conception. \
-    Maintane and fix web and mobile application.",
+    Maintain and fix web and mobile application.",
     langages: ['Typescript','React','PostgreSQL', 'AWS']
   },
   {
