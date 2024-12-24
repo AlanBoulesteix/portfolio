@@ -21,3 +21,34 @@
 .navbar::-webkit-scrollbar, .content::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .homeDiv {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .homeDiv {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #242424;
+    z-index: 1000;
+    overflow-x: auto;
+    padding: 2.5rem;
+  }
+
+  .content {
+    padding: 2.5rem;
+    margin-top: 25rem;
+  }
+}

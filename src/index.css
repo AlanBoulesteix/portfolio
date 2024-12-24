@@ -40,3 +40,55 @@ h1 {
   font-weight: 700;
   margin: 0;
 }
+
+/* Media query pour les tablettes */
+@media (max-width: 768px) {
+  a {
+      font-weight: 500;
+      color: #ffffff;
+      text-decoration: inherit;
+      cursor: none;
+    }
+  
+  body {
+      margin: 0;
+      display: flex;
+      place-items: center;
+      height: 100%;
+      overflow: hidden;
+    }
+  
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
+/* Media query pour les mobiles */
+@media (max-width: 480px) {
+  body {
+    flex-direction: column;
+    height: auto;
+    overflow: auto;
+  }
+
+  .navbar {
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 0.5rem;
+  }
+
+  .content {
+    padding: 0.5rem;
+  }
+
+  .school-project-card {
+    width: 100%;
+  }
+}
