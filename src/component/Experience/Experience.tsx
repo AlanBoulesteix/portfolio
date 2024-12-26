@@ -1,3 +1,4 @@
+import useIsMobile from '../../hook/useIsMobile';
 import './Experience.styles.css';
 
 export interface ExperienceProps {
@@ -13,8 +14,10 @@ export default function Experience({
   description,
   langages
 }: ExperienceProps) {
+  
+  const isMobile = useIsMobile();
 
-  if (!langages) {
+  if (!langages || isMobile) {
     langages = [];
   }
 
