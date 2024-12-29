@@ -8,11 +8,14 @@ import useIntersectionObserver from '../../hook/useIntersectionObserver';
 import SchoolProject from '../SchoolProject/SchoolProject';
 import LightTrail from '../LightTrail/LightTrail';
 import Contact from '../Contact/Contact';
+import useIsMobile from '../../hook/useIsMobile';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('about');
 
   useIntersectionObserver(setActiveSection);
+  const isMobile = useIsMobile();
+
 
   return (
     <>
@@ -21,12 +24,13 @@ export default function Home() {
         <div className="navbar">
           <Profile />
           <Navbar activeSection={activeSection} />
-          <Contact />
+          {!isMobile && <Contact />}
         </div>
         <div className="content">
           <About />
           <ExperiencesPage />
           <SchoolProject />
+          {isMobile && <Contact />}
         </div>
       </div>
     </>

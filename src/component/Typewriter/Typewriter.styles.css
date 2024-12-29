@@ -8,3 +8,13 @@
   font-size: 4rem;
   font-weight: 400;
 }
+
+@media(max-width: 480px) {
+  .typewriter {
+    height: 1rem;
+  }
+
+  .typewriter p.paragraph {
+    font-size: 2rem;
+  }
+}
