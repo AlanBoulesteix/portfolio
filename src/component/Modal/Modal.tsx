@@ -21,7 +21,6 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
     } else {
       document.removeEventListener('keydown', handleKeyDown);
     }
-
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
@@ -34,6 +33,9 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
   return ReactDOM.createPortal(
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-close" onClick={onClose}>
+          &times;
+        </div>
         {children}
       </div>
     </div>,
