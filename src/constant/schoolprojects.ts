@@ -10,7 +10,7 @@ export const SCHOOL_PROJECTS = [
     description: "This project is a website that allows you to play the game of pong against another player.\
     It contains a chat, a ranking system, and a friends system.\
     The goal of this project is to create a website by learning new language.\
-    We chose to use ViewJS for the front-end, NestJs for the back-end, PostgreSQL for our database, TypeOrm as orm and Typescript.\
+    We chose to use Vue.JS for the front-end, NestJs for the back-end, PostgreSQL for our database, TypeOrm as orm and Typescript.\
     I was in charge of chat, so I had to learn and use websockets.",
     linkRepo: "https://github.com/haoov/ft_transcendence",
   },
