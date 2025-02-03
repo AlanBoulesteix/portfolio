@@ -8,7 +8,16 @@ const sideProjects = [
   {
     title: 'Advice Generator App',
     description: 'An app that generates random advice using slip advice Api.',
-    screenshot: '/screenshots/advice-generator.png',
+    screenshot: '/screenshots/advice-generator-app.png',
     url: 'https://advice-generator-app-boulesteixs-projects.vercel.app/',
+  },
+  {
+    title: 'Shader Ball',
+    description: 'A small project to learn about shaders and threeJs.',
+    screenshot: '/screenshots/shader-ball.png',
+    url: 'https://shader-ball-boulesteixs-projects.vercel.app/',
   }
-]
+];
+
+
+export default sideProjects;
