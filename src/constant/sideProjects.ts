@@ -15,7 +15,7 @@ const sideProjects = [
     title: 'Organic Ball',
     description: 'A small project to learn about shaders and threeJs.',
     screenshot: '/screenshots/organic-ball.png',
-    url: 'https://shader-ball-boulesteixs-projects.vercel.app/',
+    url: 'https://organic-ball-boulesteixs-projects.vercel.app/',
   }
 ];
 
