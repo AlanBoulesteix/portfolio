@@ -12,9 +12,9 @@ const sideProjects = [
     url: 'https://advice-generator-app-boulesteixs-projects.vercel.app/',
   },
   {
-    title: 'Shader Ball',
+    title: 'Organic Ball',
     description: 'A small project to learn about shaders and threeJs.',
-    screenshot: '/screenshots/shader-ball.png',
+    screenshot: '/screenshots/organic-ball.png',
     url: 'https://shader-ball-boulesteixs-projects.vercel.app/',
   }
 ];
